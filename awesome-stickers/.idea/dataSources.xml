@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3340330937">
+    <data-source source="LOCAL" name="Rails awesome-stickers: development" uuid="e11832d0-c11e-4e09-aeb5-7207fd6d90e2">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\a3s\RubymineProjects\awesome-stickers\db\development.sqlite3</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="SQLite -" uuid="e7f0b140-5d9c-4405-97f1-4550bbc46778">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

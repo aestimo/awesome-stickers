@@ -1,0 +1,12 @@
+<% @products_frontpage.each do |product| %>
+<ul class="small-block-grid-3">
+      <li><%= image_tag "man-city.jpg" %></li>
+      <li><%= product.photo %></li>
+      <li><%= product.name %></li>
+      <li><%= product.sell_price %></li>
+      <li><%= link_to 'Show', product %></li>
+      <li><%= link_to 'Edit', edit_product_path(product) %></li>
+      <li><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+</ul>
+<% end %>
+
