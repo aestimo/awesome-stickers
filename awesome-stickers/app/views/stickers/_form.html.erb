@@ -13,7 +13,8 @@
 
   <div class="field">
     <%= f.label :photo %><br>
-    <%= f.text_field :photo %>
+    <%= image_tag(@sticker.photo_url) if @sticker.photo? %>
+    <%= f.file_field :photo %>
   </div>
   <div class="field">
     <%= f.label :name %><br>

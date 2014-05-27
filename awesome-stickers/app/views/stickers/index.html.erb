@@ -1,4 +1,4 @@
-<h1>Listing stickers</h1>
+<h1>All stickers</h1>
 
 <table>
   <thead>
@@ -14,7 +14,7 @@
   <tbody>
     <% @stickers.each do |sticker| %>
       <tr>
-        <td><%= sticker.photo %></td>
+        <td><%= image_tag(sticker.photo)  %></td>
         <td><%= sticker.name %></td>
         <td><%= sticker.description %></td>
         <td><%= sticker.tags %></td>
