@@ -12,7 +12,7 @@
   </head>
 
   <body>
-      <div class="row">
+     <div class="row">
       <div class="large-12 columns">
       <!-- Navigation -->
 
@@ -43,7 +43,6 @@
       <footer class="row">
         <div class="large-12 columns">
           <hr>
-
           <div class="row">
             <div class="large-6 columns">
               <p>&copy; 2014. <span class="label">AwesomeStickers.net</span> Powered by: <%= link_to "The Useful Internet", "http://www.theusefulinternet.com" %></p>
@@ -67,11 +66,16 @@
                 <li>
                   <%= link_to "Privacy", privacy_page_path %>
                 </li>
+
+                <li>
+                  <%= link_to "Talk to us", contact_page_path %>
+                </li>
               </ul>
             </div>
+
           </div>
         </div>
       </footer>
-
+      <%= javascript_include_tag "application" %>
   </body>
 </html>
