@@ -1,9 +1,15 @@
 Rails.application.routes.draw do
+
   resources :stickers
 
   root 'home#index'
 
   resources :products
+
+  # these are the other routes
+  PagesController.action_methods.each do |action|
+    get "/#{action}", to: "pages##{action}", as: "#{action}_page"
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
